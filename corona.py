@@ -14,6 +14,7 @@ def buscar_result():
 
 opc = Options()
 opc.headless = True # Mostrar navegador > opc.headless = False | Não mostrar navegador > opc.headless = True
+
 driver = webdriver.Chrome(executable_path='chromedriver.exe', options=opc)
 driver.get('https://www.coronatracker.com/pt-br')
 
